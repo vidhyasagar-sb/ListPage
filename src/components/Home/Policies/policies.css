@@ -1,0 +1,46 @@
+.policySliderContainer {
+  margin-bottom: 12px;
+}
+
+.homePolicyName {
+  overflow: hidden;
+  color: #334155;
+  text-overflow: ellipsis;
+  width: 268px;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.homePolicyNumber {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.homePolicyCoverage {
+  border-radius: 4px;
+  border: 1px solid #f1f5f9;
+  background: #f8fafc;
+  padding: 8px;
+  margin-top: 12px;
+}
+
+.homePolicyDate {
+  margin-bottom: 12px;
+}
+
+.homePolicyDate h4,
+.homePolicyArea h4 {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.homePolicyDate p,
+.homePolicyArea p {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}

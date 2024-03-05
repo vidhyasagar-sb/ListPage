@@ -1,0 +1,26 @@
+.homeReimbursement {
+  margin-bottom: 12px;
+}
+
+.homeReimbursement h3 {
+  color: #334155;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.homeReimbursement h4 {
+  color: #475569;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.homeReimbursement p {
+  color: #64748b;
+  font-family: 'Noto Sans';
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}

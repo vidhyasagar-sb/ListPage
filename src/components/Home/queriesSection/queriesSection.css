@@ -1,0 +1,25 @@
+.homeQueries {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeQueries h4 {
+  color: #334155;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.homeQueriesBtnContainer {
+  width: 95px;
+}
+
+.homeQueries p {
+  color: #64748b;
+  font-family: 'Noto Sans';
+  font-size: 12px;
+  font-weight: 400;
+  max-width: 180px;
+}

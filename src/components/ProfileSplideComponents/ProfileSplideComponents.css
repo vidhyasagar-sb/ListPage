@@ -1,0 +1,51 @@
+.profileSplideCompnents {
+  position: relative;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.profileTitle {
+  color: #334155;
+  font-family: 'Noto Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18.2px;
+}
+.profileLength {
+  display: flex;
+  border-radius: 12px;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 20px;
+  color: #334155;
+  font-family: 'Noto Sans';
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15.84px;
+}
+.profileContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+.wrapButtonDisable {
+  stroke: '#CBD5E1' !important;
+}
+.memberSplideContainer {
+  margin-bottom: 20px;
+}
+
+.splideButton {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+}

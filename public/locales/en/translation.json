@@ -1,0 +1,19 @@
+{
+  "Welcome to react": "Welcome to react and i18next",
+  "languages": "English",
+  "primary": "This is a primary note",
+  "name": "Jane Smith",
+  "claimReceived": "Claim Received",
+  "DocumentsVerified": "Documents being verified",
+  "searchClaims": "Search Claims",
+  "notApproved": "Not Approved",
+  "onlineRequest": "Online Request",
+  "offlineRequest": "Offline Request",
+  "intimationRequest": "Intimation Request",
+  "offline": "Barcode",
+  "online": "Online",
+  "others": "Claim",
+  "clearAll": "Clear All",
+  "applyFilters": "Apply Filters",
+  "mavenButton": "Button from maven"
+}

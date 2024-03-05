@@ -1,0 +1,42 @@
+.homeHeader {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeHeader img {
+  cursor: pointer;
+}
+
+.headerNameContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerName {
+  color: #3a4243;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.headerActionContainer {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.headerActionContainer button {
+  border-radius: 4px;
+  background: linear-gradient(254deg, #66a9f6 -15.78%, #01247e 102.21%);
+  border: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 600;
+  padding: 12px 8px;
+}

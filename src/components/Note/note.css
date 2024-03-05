@@ -1,0 +1,16 @@
+.noteContainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+  max-width: 650px;
+  cursor: pointer;
+}
+
+.noteContainer p {
+  color: #334155;
+  font-size: 12px;
+  font-weight: 500;
+  flex-grow: 1;
+}

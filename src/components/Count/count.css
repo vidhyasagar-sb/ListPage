@@ -1,0 +1,18 @@
+.countCircleContainer {
+  box-sizing: border-box;
+  border-radius: 24px;
+  /* background: #f1f5f9; */
+  height: 20px;
+  max-width: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countCircle {
+  /* color: #334155; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,17 @@
+{
+  "Welcome to react": "Bienvenido a reaccionar y i18next",
+  "languages": "Inglesa",
+  "name": "Jane Smith",
+  "claimReceived": "Reclamo recibido",
+  "DocumentsVerified": "Documentos en verificación",
+  "notApproved": "No aprovado",
+  "onlineRequest": "Solicitud en línea",
+  "offlineRequest": "Solicitud sin conexión",
+  "intimationRequest": "Solicitud de información",
+  "offline": "Código de barras",
+  "online": "En línea",
+  "others": "Afirmar",
+  "primary": "Esta es una nota primaria.",
+  "applyFilters": "Apply Filters",
+  "mavenButton": "Botón de maven"
+}

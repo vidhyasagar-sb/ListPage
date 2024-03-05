@@ -1,0 +1,43 @@
+.bannerSplide {
+  padding-bottom: 12px;
+}
+.splide__track {
+  padding-bottom: 8px;
+}
+
+.splide__pagination {
+  bottom: -0.9em !important;
+  text-align: center;
+  padding-top: 8px !important;
+}
+.splide__pagination__page {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.625rem;
+  opacity: 0.4;
+}
+.splide:not(.is-overflow) .splide__pagination {
+  display: block;
+}
+.splide__pagination__page.is-active {
+  transform: scale(1);
+  opacity: 1;
+}
+.splide__pagination__page.is-active {
+  border-radius: 24px !important;
+  background: #2563eb !important;
+  border: none !important;
+  transform: none !important;
+  padding: 1px !important;
+}
+.splide:not(.is-overflow) .splide__pagination {
+  display: block !important;
+  display: flex;
+}
+.splide__pagination__page {
+  background-color: transparent;
+  border-radius: 24px !important;
+  border: 1px solid #b0bed1 !important;
+  background: #fff !important;
+  border-radius: 24px !important;
+}

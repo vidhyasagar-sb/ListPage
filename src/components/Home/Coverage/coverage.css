@@ -1,0 +1,19 @@
+.coverageSection {
+  margin-bottom: 12px;
+}
+
+.coverageSection h3 {
+  color: #334155;
+  font-family: 'Noto Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.coverageSection p {
+  color: var(--Grey-600, #64748b);
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}

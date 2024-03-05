@@ -1,0 +1,53 @@
+.layoutCardHeader > h3 {
+  margin: 0;
+  color: #64748b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.layoutCardHeader {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 12px; */
+  padding: 12px 0;
+}
+
+.layoutCardCount {
+  color: #334155;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.layoutCardCountDot {
+  box-sizing: border-box;
+  border-radius: 24px;
+  background: #f1f5f9;
+  height: 20px;
+  max-width: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layoutCardLine {
+  margin-left: 4px;
+  height: 1px;
+  width: 100%;
+  background: #e4e4e4;
+  padding-left: 4px;
+}
+
+.layoutCardBtnContainer {
+  margin-left: 4px;
+  display: flex;
+  gap: 10px;
+}
+
+.layoutCardBtnContainer img {
+  cursor: pointer;
+}

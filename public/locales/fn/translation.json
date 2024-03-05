@@ -1,0 +1,14 @@
+{
+  "claimReceived": "Réclamation reçue",
+  "DocumentsVerified": "Documents en cours de vérification",
+  "notApproved": "Non approuvé",
+  "onlineRequest": "Demande en ligne",
+  "offlineRequest": "Demande hors ligne",
+  "intimationRequest": "Demande d'information",
+  "offline": "code à barre",
+  "online": "En ligne",
+  "others": "Réclamer",
+  "clearAll": "Tout effacer",
+  "applyFilters": "Appliquer des filtres",
+  "mavenButton": "Bouton de maven"
+}

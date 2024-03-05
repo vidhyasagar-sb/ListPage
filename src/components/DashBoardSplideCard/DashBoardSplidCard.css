@@ -1,0 +1,23 @@
+.homeCardContainer {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: #a7e6ef;
+}
+.cardTitle {
+  color: #016273;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14.85px;
+}
+.cardContent {
+  color: #014c5a;
+  font-family: 'Noto Sans';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.6px;
+}

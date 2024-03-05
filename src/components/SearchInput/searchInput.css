@@ -1,0 +1,38 @@
+.searchInput {
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.searchInput input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: inherit;
+}
+
+.searchInput img {
+  display: block;
+  width: 100%;
+}
+.SearchImage {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.inputLine {
+  width: 1px;
+  background-color: #ccc;
+
+  height: 28px;
+}
+.iconWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,10 @@
+{
+  "filter": "Filter",
+  "primary": "This is a primary note",
+  "activeClaims": "Réclamations actives",
+  "pastClaims": "Réclamations antérieures",
+  "clearAll": "Tout effacer",
+  "claims": "Réclamations",
+  "applyFilters": "Appliquer des filtres",
+  "searchClaims": "Rechercher des revendications"
+}

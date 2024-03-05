@@ -1,0 +1,73 @@
+.prePostHospitalization .hospitalizationExpense {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hospitalizationDate {
+  border-radius: 4px;
+  border: 1px solid #dbeafe;
+  background: #eff6ff;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.hospitalizationDateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hospitalizationDateContainer h5 {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.hospitalizationDateContainer div {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.hospitalizationDate .hospitalizationDateContainer:first-child {
+  margin-bottom: 16px;
+}
+
+.hospitalizationDateContainer div {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+
+.applicationDate {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #f1f5f9;
+  background: #f8fafc;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.applicationDateTitle {
+  width: 152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.applicationDateTitle p:first-child {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.applicationDateValue {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 600;
+}
