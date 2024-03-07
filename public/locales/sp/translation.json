@@ -1,6 +1,5 @@
 {
-  "Welcome to react": "Bienvenido a reaccionar y i18next",
-  "languages": "Inglesa",
+  "primary": "Esta es una nota primaria.",
   "name": "Jane Smith",
   "claimReceived": "Reclamo recibido",
   "DocumentsVerified": "Documentos en verificación",
@@ -11,7 +10,15 @@
   "offline": "Código de barras",
   "online": "En línea",
   "others": "Afirmar",
-  "primary": "Esta es una nota primaria.",
-  "applyFilters": "Apply Filters",
-  "mavenButton": "Botón de maven"
+  "coverageDuration": "Duración de la cobertura",
+  "areaOfCoverage": "Área de cobertura",
+  "exploreArea": "Explorar el área de cobertura",
+  "clearAll": "Limpiar todo",
+  "applyFilters": "Aplicar filtros",
+  "selectAll": "Seleccionar todo",
+  "filterName": "Filtrar",
+  "insuranceName1": "ICICI Lombard General Insurance Co Ltd.",
+  "chipName1": "Flotador",
+  "chipName2": "Activa",
+  "chipName3": "Inactivo"
 }

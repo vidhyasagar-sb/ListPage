@@ -1,35 +1,38 @@
 import React from "react";
 import Collapse from "../../assets/icon/Collapse";
-import {
+import Arrow, {
   AccountMenuIcon,
   ClaimsMenuIcon,
   HomeIcon,
   PolicyMenuIcon,
 } from "../../assets/images/sidebar";
+import { Link, useLocation } from "react-router-dom";
 
 const Sidebar = ({ collapse, setCollapse }) => {
+  const { pathname } = useLocation();
+
   const expand = () => {
     setCollapse((prev) => !prev);
   };
 
   const sidebarMenu = [
     {
-      route: "/home",
+      route: "/",
       menu_label: "Home",
       icon: <HomeIcon />,
-      iconActive: "",
+      iconActive: <HomeIcon />,
     },
     {
-      route: "/claims",
+      route: "/claim-list",
       menu_label: "Claims",
       icon: <ClaimsMenuIcon />,
-      iconActive: "",
+      iconActive: <ClaimsMenuIcon active={true} />,
     },
     {
-      route: "/policy",
+      route: "/policy-list",
       menu_label: "Policies",
       icon: <PolicyMenuIcon />,
-      iconActive: "",
+      iconActive: <PolicyMenuIcon active={true} />,
     },
     {
       route: "/account",
@@ -40,36 +43,43 @@ const Sidebar = ({ collapse, setCollapse }) => {
   ];
 
   return (
-    <div className="h-[calc(100vh_-_70px)] flex flex-col justify-between fixed  z-[9] bg-[#EFF6FF] shadow-[0px_1px_3px_0px_#0F172A1A]">
+    <div className="h-[calc(100vh_-_70px)] flex flex-col justify-between fixed  z-[6] bg-[#EFF6FF] shadow-[0px_1px_3px_0px_#0F172A1A]">
       <ul
-        className="flex flex-col w-[204px] transition-all duration-[0.5s] ease-[ease] relative grow gap-[10px] pt-2"
+        className="flex flex-col w-[204px] transition-all duration-[0.5s] ease-[ease] grow gap-[10px] px-3 pt-[10px]"
         style={{ width: collapse ? "204px" : "60px" }}
       >
         {sidebarMenu?.map((data, i) => {
           return (
-            <a href={data?.route} key={i}>
+            <Link to={data?.route} key={i}>
               <li
-                className={`text-[#64748B] text-sm list-none cursor-pointer mx-2 my-0 ${
+                className={`text-[#64748B] text-sm list-none cursor-pointer rounded hover:bg-[#DBEAFE] my-0 group ${
                   collapse ? "" : "menuCollapsed"
-                }`}
+                } ${pathname === data?.route ? "bg-[#DBEAFE]" : ""}`}
               >
                 <span
-                  className={`flex items-end gap-3 p-[10px] ${
-                    collapse ? "" : "collapsed"
-                  } ${"claims" === data?.menu_label ? "selectedMenu" : ""}`}
+                  className={`flex items-end gap-3 p-[10px] pl-3 relative ${
+                    collapse ? "" : "max-w-[44px] mx-auto justify-center"
+                  } ${
+                    pathname === data?.route ? "text-[#3D3D3D] font-bold" : ""
+                  }`}
                   onClick={() => console.log(data?.menu_label, data?.route)}
                 >
-                  {"claims" === data?.menu_label
-                    ? data?.iconActive
-                    : data?.icon}
+                  {pathname === data?.route ? data?.iconActive : data?.icon}
+
                   {collapse ? (
                     <p className="basis-2/3">{data.menu_label}</p>
                   ) : (
                     ""
                   )}
+
+                  {!collapse && (
+                    <ul className="bg-[#f8fbfb] absolute right-[-180px] hidden shadow-[0px_0px_3.847px_0px_rgba(0,0,0,0.1215686275)] rounded w-[170px] ml-0 top-0 group-hover:block p-3">
+                      <span>{data.menu_label}</span>
+                    </ul>
+                  )}
                 </span>{" "}
               </li>
-            </a>
+            </Link>
           );
         })}
       </ul>

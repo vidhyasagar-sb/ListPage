@@ -1,13 +1,15 @@
 import React from "react";
 import "../../js/ClaimListWebComp.js";
+import FooterNav from "../../components/ResponsiveNavbar/index.tsx";
 
-const ClaimList = () => {
+const ClaimList = ({ theme, locale }) => {
   return (
     <div>
       <claims-web-component
-        theme={"theme1"}
-        locale={"en"}
+        theme={theme}
+        locale={locale}
       ></claims-web-component>
+      {/* <FooterNav /> */}
     </div>
   );
 };

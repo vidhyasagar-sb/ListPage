@@ -7,7 +7,6 @@ export const LayoutStyles = styled.div`
     height: calc(100vh - 67px);
     &Header {
       position: relative;
-      height: 64px;
     }
   }
 
@@ -37,7 +36,7 @@ export const LayoutStyles = styled.div`
     }
   }
 
-  @media (max-width: 1150px) {
+  @media (max-width: 650px) {
     .authRoutes {
       .sidebarCollapsed {
         min-width: 0;
@@ -56,4 +55,24 @@ export const LayoutStyles = styled.div`
       }
     }
   }
+
+  /* @media (max-width: 1150px) {
+    .authRoutes {
+      .sidebarCollapsed {
+        min-width: 0;
+      }
+      .sidebarExpanded {
+        min-width: 0;
+      }
+      .sidebarCollapsedPhn {
+        .sidebar {
+          left: -100%;
+          transition: all 0.2s ease;
+          &Menu {
+            width: 204px !important;
+          }
+        }
+      }
+    }
+  } */
 `;

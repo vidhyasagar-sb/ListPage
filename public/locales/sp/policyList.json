@@ -1,0 +1,15 @@
+{
+  "filter": "Filtrar",
+  "activePolicies": "Políticas activas",
+  "inactivePolicies": "Políticas inactivas",
+  "clearAll": "Limpiar todo",
+  "applyFilters": "Aplicar filtros",
+  "policies": "Políticas",
+  "searchPolicies": "Políticas de búsqueda",
+  "insuranceName1": "ICICI Lombard General Insurance Co Ltd.",
+  "en": {
+    "Selva ganesh": "Selva ganesh",
+    "Karthik Subburaj": "Karthik Subburaj"
+  },
+  "filterContent1": "Tipo"
+}

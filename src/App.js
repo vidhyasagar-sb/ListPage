@@ -20,13 +20,13 @@ function App() {
 
   const appRoutes = [
     {
-      path: "/home",
+      path: "/",
       component: <div></div>,
       header: true,
       sidebar: true,
     },
     {
-      path: "/claims",
+      path: "/claim-list",
       component: <ClaimList theme={themeName} locale={locale} />,
       header: true,
       sidebar: true,

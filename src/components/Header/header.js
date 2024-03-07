@@ -30,7 +30,7 @@ export const HeaderStyle = styled.div`
 
     &Profile {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       gap: 20px;
 
       .bell {
@@ -119,6 +119,7 @@ export const HeaderStyle = styled.div`
     font-size: 12px;
     font-style: italic;
     font-weight: 600;
+    padding: 12px 8px;
   }
 
   .headerNameContainer {

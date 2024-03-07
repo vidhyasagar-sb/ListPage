@@ -13,7 +13,19 @@
   "offline": "Barcode",
   "online": "Online",
   "others": "Claim",
+  "coverageDuration": "Coverage Duration",
+  "areaOfCoverage": "Area Of Coverage",
+  "exploreArea": "Explore Area of Coverage",
   "clearAll": "Clear All",
   "applyFilters": "Apply Filters",
-  "mavenButton": "Button from maven"
+  "selectAll": "Select All",
+  "filterName": "Filter",
+  "chipName1": "Floater",
+  "chipName2": "Active",
+  "chipName3": "Inactive",
+  "cardName1": "Abhishek Singh",
+  "en": {
+    "Selva ganesh": "Selva ganesh",
+    "Karthik Subburaj": "Karthik Subburaj"
+  }
 }

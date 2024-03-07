@@ -1,4 +1,5 @@
 {
+  "name": "Jane Smith",
   "claimReceived": "Réclamation reçue",
   "DocumentsVerified": "Documents en cours de vérification",
   "notApproved": "Non approuvé",
@@ -8,7 +9,14 @@
   "offline": "code à barre",
   "online": "En ligne",
   "others": "Réclamer",
+  "coverageDuration": "Durée de la couverture",
+  "areaOfCoverage": "Zone de couverture",
+  "exploreArea": "Explorer la zone de couverture",
   "clearAll": "Tout effacer",
   "applyFilters": "Appliquer des filtres",
-  "mavenButton": "Bouton de maven"
+  "selectAll": "Sélectionner tout",
+  "filterName": "Filtre",
+  "chipName1": "Flotteur",
+  "chipName2": "Actif",
+  "chipName3": "Inactif"
 }
